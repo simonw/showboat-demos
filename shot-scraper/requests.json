@@ -1,0 +1,1 @@
+{"method": "GET", "url": "https://example.com/", "status": 200, "size": 513, "timing": {"startTime": 1770363947760.583, "domainLookupStart": 0.357, "domainLookupEnd": 1.973, "connectStart": 2.03, "secureConnectionStart": 22.432, "connectEnd": 85.898, "requestStart": 86.206, "responseStart": 124.138, "responseEnd": 124.787}}

@@ -1,0 +1,27 @@
+# Full page at narrow width
+- output: demo/mobile-view.png
+  url: https://example.com/
+  width: 375
+  height: 667
+
+# Selector targeting with padding
+- output: demo/heading-only.png
+  url: https://example.com/
+  selector: "h1"
+  padding: 15
+
+# JavaScript injection to restyle, then capture
+- output: demo/dark-mode.png
+  url: https://example.com/
+  width: 800
+  height: 400
+  javascript: |
+    document.body.style.backgroundColor = "#1a1a2e";
+    document.body.style.color = "#eee";
+    document.querySelectorAll("a").forEach(a => a.style.color = "#00d2ff");
+
+# Wide desktop view
+- output: demo/desktop-wide.png
+  url: https://example.com/
+  width: 1440
+  height: 900

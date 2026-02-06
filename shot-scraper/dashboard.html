@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title>
+<style>
+  body { font-family: system-ui; margin: 0; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 100vh; }
+  h1 { margin-top: 0; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .card { background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border-radius: 12px; padding: 20px; }
+  .card h2 { margin: 0 0 8px 0; font-size: 14px; opacity: 0.8; text-transform: uppercase; }
+  .card .value { font-size: 36px; font-weight: bold; }
+</style></head>
+<body>
+  <h1>Analytics Dashboard</h1>
+  <div class="cards">
+    <div class="card"><h2>Users</h2><div class="value">12,847</div></div>
+    <div class="card"><h2>Revenue</h2><div class="value">$48.2K</div></div>
+    <div class="card"><h2>Growth</h2><div class="value">+23%</div></div>
+  </div>
+</body></html>
